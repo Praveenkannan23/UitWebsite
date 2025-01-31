@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.15",
+    "sweetalert2": "^11.14.3",
+    "twilio": "^5.3.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
